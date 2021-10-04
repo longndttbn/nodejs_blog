@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "This is the first project NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longndttbn/nodejs_blog.git"
+  },
+  "keywords": [
+    "blog",
+    "iback",
+    "iback_nodejs"
+  ],
+  "author": "iback",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longndttbn/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/longndttbn/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
